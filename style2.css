@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: rgba(227, 27, 27, 0.494);
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  #game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 250px;
+    background-color: #eee;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(243, 242, 248);
+  }
+
+  .card.clicked {
+    background-color: #f9f9fb;
+  }
+  
+  .card.matched {
+    background-color: #f2f630;
+    cursor: default;
+  }
