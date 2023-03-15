@@ -76,7 +76,7 @@ function handleClick(event) {
         secondCard.classList.remove('clicked');
         firstCard = null;
         secondCard = null;
-      }, 1000);
+      }, 350);
     }
   }
   if (firstCard && secondCard && !startTime) {
